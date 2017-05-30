@@ -63,7 +63,7 @@ public class Application {
 
                 switch (ch) {
                     case 1:
-                        System.out.println("Enter date:");
+                        System.out.println("Enter date in format yyyy-MM-dd:");
                         String date1 = d.readLine();
                         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
                         Date date = new Date(simpleDateFormat.parse(date1).getTime());
